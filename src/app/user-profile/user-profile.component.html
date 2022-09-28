@@ -1,0 +1,7 @@
+    <img [src]="user.photo" [alt]="user.firstName" />
+    <p>{{user.firstName}}</p>
+    <p>{{user.name}}</p>
+    <input type="text" [(ngModel)] = "user.quote">
+    <p>{{user.quote}}</p>
+    <input type="button" value="cache-cache" (click)="user.switchAgeDisplay()">
+    <p *ngIf ="user.visibleAge">{{user.age}}</p>
