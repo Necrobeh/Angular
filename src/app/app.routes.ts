@@ -6,6 +6,7 @@ import { MenuComponent } from "./menu/menu.component";
 const ROUTES : Routes = [
     {path : 'signup' , component : SignupComponent},
     {path : 'user-profile' , component : UserProfileComponent},
+    {path : '' , component : UserProfileComponent},
     {path : 'menu' , component : MenuComponent}
 ];
 
