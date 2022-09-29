@@ -1,0 +1,6 @@
+<app-skill
+[skillList]="skillList"
+></app-skill>
+
+<h2>My name is {{user.firstname}} {{user.lastname}}. I'm {{user.age}}, {{user.gender}}, and my devise is "{{user.bio}}" </h2>
+<p *ngFor="let skill of skillList">My skill is {{skill.name}}, {{skill.logo}} is my logo, and there is the url of my site : {{skill.site}}</p>
