@@ -1,0 +1,23 @@
+<form (ngSubmit)="submit()">
+    <label for="typeOfGoods">Que venez-vous chercher ?</label>
+    <input type="text" id="typeOfGoods" name="typeOfGoods" [(ngModel)]="this.myFirstOrder.typeOfGoods" required>
+    <label for="quantity">Combien en voulez-vous ?</label>
+    <input type="number" id="quantity" name="quantity" [(ngModel)]="this.myFirstOrder.quantity" required>
+    <label for="dateOfToday">Date du jour</label>
+    <input type="date" id="dateOfToday" name="dateOfToday" [(ngModel)]="this.myFirstOrder.dateOfToday" required>
+    <br/>
+    <input type="button" value="Réinitialiser">
+    <input type="submit" value="Envoyer">
+</form>>
+
+<!-- <form #myForm="ngForm" (ngSubmit)="myForm.valid && submit()" >
+      <div>
+        Form submitted ? {{myForm.submitted}}
+        Form valid ? {{myForm.valid}}
+        Form invalid ? {{myForm.valid}}
+      </div>
+    
+      [...]
+    
+      <button type="submit">Sauvegarder</button>
+    </form> -->
