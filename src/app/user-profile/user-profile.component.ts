@@ -8,7 +8,7 @@ import { User } from '../models/user.model';
 })
 export class UserProfileComponent implements OnInit {
 
-  user : User = new User('Doe', 'John', 45, 'I know most things', 'https://randomuser.me/api/portraits/lego/2.jpg')
+  user : User = new User('Doe', 'John', 45, 'I know most things', 'https://randomuser.me/api/portraits/lego/2.jpg');
 
   constructor() {}
 
