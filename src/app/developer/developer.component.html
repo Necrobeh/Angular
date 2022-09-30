@@ -1,6 +1,12 @@
-<app-skill
-[skillList]="skillList"
-></app-skill>
+<!-- <app-skill
+(getTestOut)="getTestOut($event)"
+></app-skill> -->
 
 <h2>My name is {{user.firstname}} {{user.lastname}}. I'm {{user.age}}, {{user.gender}}, and my devise is "{{user.bio}}" </h2>
-<p *ngFor="let skill of skillList">My skill is {{skill.name}}, {{skill.logo}} is my logo, and there is the url of my site : {{skill.site}}</p>
+
+<app-skill  
+[skill]="skill"
+*ngFor="let skill of user.skill"
+></app-skill>
+
+<!-- <p>The number hidden in 'test' is {{testValue}} </p> -->

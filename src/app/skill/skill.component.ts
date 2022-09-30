@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Skill } from "../models/skill.model";
 
 @Component({
@@ -8,20 +8,22 @@ import { Skill } from "../models/skill.model";
 })
 
 export class SkillComponent implements OnInit {
- 
-  // user : Developer = new Developer('Mickey', 'Mouse', 94, 'ultra manly', 'hohohoho!', [
-    // new Skill('Cartoons', '()', 'disney.com'),
-    // new Skill('Cinema', '[]', 'disney.cinema.com'),
-    // new Skill('Magic', '{}', 'apprenti-sorcier.com')
-  // ]);
-  
-  @Input()
-  skillList : Skill[] | undefined;
 
+    // test : number = 50;
 
-  constructor() { }
+    @Input()
+    skill : Skill = new Skill('', '', '');
 
-  ngOnInit(): void {
-  };
+    // @Output()
+    // getTestOut : EventEmitter<number> = new EventEmitter();
 
+    constructor() { }
+
+    ngOnInit(): void {
+      // this.sendTestToParent();
+    };
+
+    // sendTestToParent() : void {
+    //   this.getTestOut.emit(this.test)
+    // }
 };
