@@ -1,0 +1,31 @@
+[
+    {
+        "name" : "Peacock", 
+        "price" : 14,
+        "image" : "assets/peacock.jpg"
+    },
+
+    {
+        "name" : "Qasoar", 
+        "price" : 9,
+        "image" : "assets/peacock.jpg"
+    },
+
+    {
+        "name" : "Golf Score", 
+        "price" : 10,
+        "image" : "assets/peacock.jpg"
+    },
+
+    {
+        "name" : "Not-a-Moro", 
+        "price" : 7,
+        "image" : "assets/peacock.jpg"
+    },
+
+    {
+        "name" : "Humming Bird", 
+        "price" : 15,
+        "image" : "assets/peacock.jpg"
+    }
+]

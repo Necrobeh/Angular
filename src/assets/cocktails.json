@@ -1,0 +1,31 @@
+{
+    "cocktail1" : [
+        {"name" : "Peacock"}, 
+        {"price" : 14},
+        {"image" : "assets/peacock.jpg"}
+    ],
+
+    "cocktail2" : [
+        {"name" : "Qasoar"}, 
+        {"price" : 9},
+        {"image" : "assets/qasoar.jpg"}
+    ],
+
+    "cocktail3" : [
+        {"name" : "Golf Score"}, 
+        {"price" : 10},
+        {"image" : "assets/golf-score.jpg"}
+    ],
+
+    "cocktail4" : [
+        {"name" : "Not-a-Moro"}, 
+        {"price" : 7},
+        {"image" : "assets/not-a-moro.jpg"}
+    ],
+
+    "cocktail5" : [
+        {"name" : "Humming Bird"}, 
+        {"price" : 15},
+        {"image" : "assets/humming-bird.jpg"}
+    ]
+}
